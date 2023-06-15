@@ -6,7 +6,19 @@ nav a {
   padding: 20px;
   color: white;
   text-decoration: none;
+
 }
+
+@media (max-width: 768px) {
+  nav {
+    width: 500px;
+        flex-direction: column;
+  }
+
+}
+
+
+
 nav a:hover {
   background-color: white;
   color: black;
@@ -17,6 +29,25 @@ header {
   background-color: skyblue;
   text-align: center;
 }
+
+
+
+@media (max-width: 768px) {
+  h1{
+    width: 200px;
+        flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  h2{
+    width: 200px;
+        flex-direction: row;
+  }
+}
+
+
+
 
 h2 {
   text-align: center;
@@ -87,7 +118,9 @@ input[type=submit]:hover {
   background-color: skyblue;
   margin-top: 10px;
   flex-wrap: wrap;
+ 
 }
+
 
 .img-historia {
   width: 500px;
@@ -96,11 +129,40 @@ input[type=submit]:hover {
   border-radius: 4px;
 }
 
+@media (max-width: 768px) {
+  .articulo {
+    width: 500px;
+        flex-direction: column;
+  }
+
+  .img-historia {
+    width: 200px;
+    margin-left: 0;
+  }
+}
+
+/* sub 20 */
 article {
   display: flex;
   background-color: skyblue;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  article {
+    width: 500px;
+        flex-direction: column;
+  }
+
+  .img-20 {
+    width: 200px;
+    margin-left: 0;
+  }
+}
+
+
+
+
 
 .img-20 {
   width: 350px;
