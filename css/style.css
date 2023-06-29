@@ -24,6 +24,10 @@ nav a:hover {
   color: black;
 }
 
+p{
+  margin: 5px;
+}
+
 header {
   padding: 50px;
   background-color: skyblue;
@@ -114,13 +118,14 @@ input[type=submit]:hover {
 }
 
 .articulo {
+  width: 60%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: skyblue;
   margin-top: 10px;
   flex-wrap: wrap;
- 
 }
-
 
 .img-historia {
   width: 500px;
@@ -129,23 +134,15 @@ input[type=submit]:hover {
   border-radius: 4px;
 }
 
-@media (max-width: 768px) {
-  .articulo {
-    width: 500px;
-        flex-direction: column;
-  }
-
-  .img-historia {
-    width: 200px;
-    margin-left: 0;
-  }
-}
-
-/* sub 20 */
 article {
+  width: 60%;
+  height: 500px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: skyblue;
-  margin-top: 10px;
+  margin-left: 275px;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -226,5 +223,74 @@ footer {
   text-decoration: none;
   color: blue;
 }
+
+
+@media (max-width: 600px){
+header{
+  padding: 10px;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+}
+
+
+  h2{
+    text-align: start;
+  }
+
+
+
+.articulo{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+  .img-historia{width: 300px;
+    margin-left: 10px;
+
+  }
+
+  article{
+    margin-left: 10px;
+    font-size: 12px;
+
+  }
+
+  .img-20{
+    width: 300px;
+    margin-left: 10px;
+
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px){
+
+h2{
+  text-align: start;
+}
+
+  .articulo{
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+
+  article{
+    margin-left: 10px;
+font-size: 11px;
+  }
+
+  .img-20{
+    width: 300px;
+    margin-left: 10px;
+
+  }
+
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
