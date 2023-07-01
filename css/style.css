@@ -95,20 +95,24 @@ h2 {
 .flex{
   display: flex;
   flex-direction: column;
-  margin-left: 75vh;
+  margin-left: 500px;
 }
 
 .flexx{
-  display: flex;
-  flex-direction: column;
-  margin-left: 35%;
+margin-left: 500px;
 
 }
 
 .flexxx{
   display: flex;
   flex-direction: column;
-  margin-left: 60vh;
+  flex: 1;
+  margin-left: 400px;
+
+}
+
+.flexxx .card{
+ justify-content: start;
 
 }
 
@@ -279,20 +283,24 @@ footer {
 
   }
   
-  .flexxx{
+  .flexxx .card{
     display: flex;
     flex-direction: column;
-    margin-left: 0;
+   width: 100px;
+    
 
   }
-
-
-
 }
 
 
+/* mq */
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+/* # sourceMappingURL=style.css.map */
 
 
 
