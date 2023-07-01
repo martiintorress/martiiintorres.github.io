@@ -6,6 +6,8 @@
     <meta name="keywords" content="Messi, Maradona, Argentina, Campeon ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../img/afa.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -19,28 +21,36 @@
         <h1>Asociación de Futbol Argentino.<span>&#160;</span></h1> 
         </div>
     
-    </header>    <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="./contacto.html"> Contacto</a>
-        <a href="./historia.html"> Historia</a> 
-        <a href="./sub-20.html"> Sub 20</a> 
-        <a href="./idolos.html"> Idolos</a> 
-    </nav>
-
-    <h2>Mundial Sub 20: Argentina quedó eliminada ante Nigeria</h2>
-<main>
-    <article>
-        <img class="img-20" src="../img/sub-20.jpg" alt="equipo sub 20">
-
-        <div>
-            <p class="parrafo">La Selección Argentina quedó eliminada del Mundial Sub-20 tras una derrota 2 a 0 ante Nigeria, por los octavos de final y los jugadores de la Albiceleste se mostraron sin consuelo, entre ellos estuvo Agustín Giay que se lamentó por el segundo gol de los africanos.</p>
-
-            <p class="parrafo">Fue un nuevo golpe para Javier Mascherano. Distinto al del Sudamericano, donde la Selección Argentina no logró la clasificación para este Mundial Sub 20 al que entró por ser finalmente el país anfitrión. Pero golpe al fin. Aunque la imagen en general haya sido otra (mucho más mejorada), la muy buena primera fase del equipo argentino invitaba a soñar con llegar más lejos y no quedarse afuera en los octavos de final.Y los dos descuidos que tuvimos terminaron en goles. El equipo lo intentó de todas las maneras, los chicos dejaron todo pero no se nos dio", fue la primera reflexión de Masche.</p>
+    </header> 
+    <nav class="navbar navbar-expand-lg bg-#333">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              <a class="nav-link" href="./historia.html">Historia</a>
+              <a class="nav-link" href="./sub-20.html">Sub 20</a>
+              <a class="nav-link" href="./idolos.html">Idolos</a>
+            </div>
+          </div>
         </div>
+      </nav>
 
+<main>
+    <div class="flex">
+        <div class="card" style="width: 100vh;  background-color : skyblue;  " >
+                <h2>Mundial Sub 20: Argentina quedó eliminada ante Nigeria</h2>
 
-
-    </article>
+            <img src="../img/sub-20.jpg" class="card-img-top" alt="Argentina campeona">
+            <div class="card-body">
+              <p class="card-text">La Selección Argentina quedó eliminada del Mundial Sub-20 tras una derrota 2 a 0 ante Nigeria, por los octavos de final y los jugadores de la Albiceleste se mostraron sin consuelo, entre ellos estuvo Agustín Giay que se lamentó por el segundo gol de los africanos.</p>
+              <p class="card-text">Fue un nuevo golpe para Javier Mascherano. Distinto al del Sudamericano, donde la Selección Argentina no logró la clasificación para este Mundial Sub 20 al que entró por ser finalmente el país anfitrión. Pero golpe al fin. Aunque la imagen en general haya sido otra (mucho más mejorada), la muy buena primera fase del equipo argentino invitaba a soñar con llegar más lejos y no quedarse afuera en los octavos de final.Y los dos descuidos que tuvimos terminaron en goles. El equipo lo intentó de todas las maneras, los chicos dejaron todo pero no se nos dio", fue la primera reflexión de Masche.</p>
+            </div>
+          </div>
+    </div>
 </main>
 
 <footer>
@@ -50,6 +60,11 @@
     <a href="https://www.facebook.com/AFASeleccionArgentina/?locale=es_LA" class="fa fa-facebook"></a>
     </section>
       </footer>
+      
+
+
+</body>
+</html>
       
 
 
