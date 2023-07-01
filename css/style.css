@@ -95,13 +95,21 @@ h2 {
 .flex{
   display: flex;
   flex-direction: column;
- margin-left: 70vh;
+  margin-left: 75vh;
 }
 
 .flexx{
   display: flex;
   flex-direction: column;
-  margin-left: 50vh;
+  margin-left: 35%;
+
+}
+
+.flexxx{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60vh;
+
 }
 
 .img-index {
@@ -257,70 +265,35 @@ footer {
 
 
 @media (max-width: 600px){
-header{
-  padding: 10px;
-}
 
-nav{
-  display: flex;
-  flex-direction: column;
-}
+  .flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  
+  .flexx{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
 
+  }
+  
+  .flexxx{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
 
-  h2{
-    text-align: start;
   }
 
 
 
-.articulo{
-  margin-left: 10px;
-  font-size: 12px;
-}
-
-  .img-historia{width: 300px;
-    margin-left: 10px;
-
-  }
-
-  article{
-    margin-left: 10px;
-    font-size: 12px;
-
-  }
-
-  .img-20{
-    width: 300px;
-    margin-left: 10px;
-
-  }
 }
 
 
-@media (min-width: 601px) and (max-width: 1024px){
 
-h2{
-  text-align: start;
-}
+/*# sourceMappingURL=style.css.map */
 
-  .articulo{
-    margin-left: 10px;
-    font-size: 12px;
-  }
-
-
-  article{
-    margin-left: 10px;
-font-size: 11px;
-  }
-
-  .img-20{
-    width: 300px;
-    margin-left: 10px;
-
-  }
-
-}
 
 
 
