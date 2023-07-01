@@ -1,7 +1,36 @@
+*{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+/*  transicion*/
+
+
+.card {
+  transition: all 0.9s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+/* fin */
+
+
+
+
+
 nav {
   display: flex;
   background-color: #333;
 }
+
 nav a {
   padding: 20px;
   color: white;
@@ -9,13 +38,7 @@ nav a {
 
 }
 
-@media (max-width: 768px) {
-  nav {
-    width: 500px;
-        flex-direction: column;
-  }
 
-}
 
 
 
@@ -36,19 +59,7 @@ header {
 
 
 
-@media (max-width: 768px) {
-  h1{
-    width: 200px;
-        flex-direction: column;
-  }
-}
 
-@media (max-width: 768px) {
-  h2{
-    width: 200px;
-        flex-direction: row;
-  }
-}
 
 
 
@@ -62,6 +73,14 @@ h2 {
   margin: 20px;
   flex-direction: row;
   flex-wrap: wrap;
+  box-shadow: 10px 10px 10px 10px gray;
+
+}
+
+.card-body{
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 10px 10px gray;
+
 }
 
 .card-hija {
@@ -71,6 +90,11 @@ h2 {
   flex: 1;
   border-radius: 6px;
   box-shadow: 10px 10px 10px 10px gray;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .img-index {
@@ -294,3 +318,5 @@ font-size: 11px;
 
 
 /*# sourceMappingURL=style.css.map */
+
+
