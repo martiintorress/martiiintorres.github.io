@@ -94,7 +94,14 @@ h2 {
 
 .flex{
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+ margin-left: 70vh;
+}
+
+.flexx{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50vh;
 }
 
 .img-index {
@@ -318,5 +325,6 @@ font-size: 11px;
 
 
 /*# sourceMappingURL=style.css.map */
+
 
 
